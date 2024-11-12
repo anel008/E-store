@@ -7,7 +7,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, azure, bisque);
+    background: linear-gradient(to bottom, rgb(252, 252, 252), bisque);
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -28,7 +28,7 @@ body{
     display: flex;
     width: 390px;
     height: 350px;
-    background: linear-gradient(to bottom, rgba(61, 130, 190, 0.6), rgba(93, 151, 93, 0.6));
+    background: linear-gradient(to top, rgba(190, 193, 193, 0.8), rgba(255, 228, 196, 0.8), rgba(222, 184, 135, 0.8));
     justify-content: center;
     align-items: center;
     border-radius: 10%;
