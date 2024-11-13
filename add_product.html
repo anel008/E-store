@@ -7,7 +7,7 @@
     <link type="text/css" rel="stylesheet" href="stylesheet.css" >
     
 </head>
-<body>
+<body class="body_styling">
     <div class="header">
         <nav class="navbar">
             <ul class="navbar_list">
@@ -25,39 +25,31 @@
                 <label class="navbar_items srh" for="search">Search</label>
             </div>
         </nav>
+
+
+
+        <script src="./home.js"></script>
     </div>
-    <div class="content_container body_styling">
-        <div class="content_text">
-            <p>Choose the product</p>
+    <div class="add_product_body ">
+        <div class="add_product_container login_container"> 
+            <form class="login_form">
+                <label for="productName">Name</label>
+                <input class="login_form_input" id="productName" name="productName" type="text">
+
+                <label for="productCatogery">catogery</label>
+                <input class="login_form_input" id="productCatogery" name="productCatogery" type="text">
+            
+                <label for="productPrice">Price</label>
+                <input class="login_form_input" id="productPrice" name="productPrice" type="text">
+            
+                <label for="productImage">Image</label>
+                <input class="login_form_input" id="productImage" name="productImage" type="file">
+
+                <input class="button" type="button" value="submit">
+            </form>
+            
         </div>
-        <div class="product">
-           <a href="./mobile.html" class="product_card mobile"><div >
-                <p>Mobile</p>
-            </div></a>
-            <a href="./laptop.html" class="product_card laptop"><div >
-                <p>Laptop</p>
-            </div></a>
-            <a href="./pc.html" class="product_card pc"><div>
-                <p>Desktop</p>
-            </div></a>
-        </div>        
     </div>
-    <div class="second_content">
-
-    <p class="sec_text">
-        Shop the Best Deals Online – Quality Products, Unbeatable Prices!
-    </p>
-
-
-    </div>
-    <footer>
-        <p class="foot">
-            @copyright
-        </p>
-    </footer>
-
-
-
 
 <script src="./scripts.js"></script>
 </body>

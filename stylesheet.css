@@ -1,0 +1,334 @@
+*{
+    margin:0% ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+    font-family:serif;
+    font-weight:bolder;
+    align-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial;
+}
+
+.navbar_list{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    list-style-type:none;
+    text-transform: capitalize;
+    width: 350px;
+}
+
+.navbar_items{
+    color:black;
+    text-decoration: none;
+    font-size:19px;
+    transition: 0.3s;
+    color: rgb(61, 56, 56);
+
+    
+}
+
+
+.navbar_items:hover{
+    font-size: 22px;
+}
+
+.logo{
+    font-size:200%;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: -4%;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding-right: 1%;
+    gap: 10px;
+}
+
+
+.search input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    width: 250px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.search input:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.search input:hover{
+    width: 275px;
+}
+
+.body_styling{
+    width: 100vw;
+    height: 100vh;
+    background-color:azure;
+    background: linear-gradient(to top,azure,bisque);
+    margin: 0%;
+    padding: 0%;
+}
+
+.content_container{
+
+    justify-content: center;
+}
+
+.content_text{
+    font-family: Arial ;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0%;
+}
+
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4%;
+
+}
+
+.product_card{
+    width: 28%;
+    height: 350px;
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 45px;
+    border-radius: 6%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.product_card:hover{
+    width: 30%;
+    height: 400px;
+    font-size: 60px;
+
+}
+
+.mobile{
+    background-image: url(./assets/images/mobile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.laptop{
+    background-image: url(./assets/images/laptop.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.pc{
+    background-image: url(./assets/images/pc.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.second_content{
+    width: 100%;
+    height: 600px;
+    background-color: orange;
+    background: linear-gradient(to bottom, azure, bisque);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sec_text{
+    color: gray;
+    font-family: courier;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 10%;
+    margin: 5%;
+    
+}
+
+.foot{
+    color: gray;
+    font-size: larger;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ############# LOG IN ############# */
+
+
+
+.login_container_fixed{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(252, 252, 252), bisque);
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+    color: gray;
+    font-weight: bolder;
+}
+
+.login_container{
+    display: flex;
+    width: 390px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(190, 193, 193, 0.8), rgba(255, 228, 196, 0.8), rgba(222, 184, 135, 0.8));
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login_form_input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 300px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.login_form_input:focus {
+    outline: none;
+    width: 350px; 
+}
+
+.button {
+    display: block;          
+    margin: 5% auto;         
+    background-color: rgb(61, 130, 190);
+    width: 50%;             
+    max-width: 200px;        
+    padding: 10px;        
+    color: white;            
+    border: none;           
+    border-radius: 5px;     
+    cursor: pointer;       
+    transition: 0.3s;       
+}
+
+#loginButton:hover {
+    background-color: rgb(50, 115, 170); 
+}
+
+
+/* ########## MOBILE PAGE ########### */
+
+.gadget_container{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gadget_card{
+    width: 250px;
+    background-color: rgb(186, 180, 180);
+    height:275px;
+    border-radius: 10%;
+    margin-top: 4%;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.gadget_card_details{
+    background-image: url(./assets/images/mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+
+.gadget_card:hover{
+    width: 300px;
+    background-color: rgb(120, 116, 116);
+    height:275px;
+}
+
+.gadget_card_details:hover{
+    font-size: 40px;
+}
+
+.laptop_img{
+    background-image: url(./assets/images/laptop.jpeg);
+}
+
+.pc_img{
+    background-image:url(./assets/images/pc.jpg);
+}
+
+.add_product_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.add_product_container{
+    width: 500px;
+    background:linear-gradient(to bottom, bisque, grey)
+}
